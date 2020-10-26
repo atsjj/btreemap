@@ -1,6 +1,6 @@
 {
   "name": "@atsjj/btreemap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "BTreeMap is a library that implements Map based on a B-Tree.",
   "homepage": "https://github.com/atsjj/btreemap",
   "repository": "https://github.com/atsjj/btreemap",
