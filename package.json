@@ -1,9 +1,9 @@
 {
-  "name": "@atsjj/b-tree-map",
+  "name": "@atsjj/btreemap",
   "version": "0.0.0",
   "description": "BTreeMap is a library that implements Map based on a B-Tree.",
-  "homepage": "https://github.com/atsjj/b-tree-map",
-  "repository": "https://github.com/atsjj/b-tree-map",
+  "homepage": "https://github.com/atsjj/btreemap",
+  "repository": "https://github.com/atsjj/btreemap",
   "author": "Steve Jabour <steve@jabour.me> (https://github.com/atsjj)",
   "license": "MIT",
   "module": "dist/esm/mod.js",

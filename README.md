@@ -1,8 +1,8 @@
 # BTreeMap
 
-[![build](https://img.shields.io/github/workflow/status/atsjj/b-tree-map/ci)](https://github.com/atsjj/b-tree-map/actions?query=workflow%3Aci)
-[![doc](https://img.shields.io/badge/deno-doc-blue)](https://doc.deno.land/https/deno.land/x/b-tree-map/mod.ts)
-[![npm](https://img.shields.io/npm/v/@atsjj/b-tree-map)](https://www.npmjs.com/package/@atsjj/b-tree-map)
+[![build](https://img.shields.io/github/workflow/status/atsjj/btreemap/ci)](https://github.com/atsjj/btreemap/actions?query=workflow%3Aci)
+[![doc](https://img.shields.io/badge/deno-doc-blue)](https://doc.deno.land/https/deno.land/x/btreemap/mod.ts)
+[![npm](https://img.shields.io/npm/v/@atsjj/btreemap)](https://www.npmjs.com/package/@atsjj/btreemap)
 
 BTreeMap is a library that implements Map based on a B-Tree. BTreeMap has first-class
 support for Deno and TypeScript, but also ships with support for Node CommonJS and ES Modules.
@@ -12,7 +12,7 @@ BTreeMap is based on the work of [Ruby-BTree](https://github.com/seifertd/Ruby-B
 ## Install (Node)
 
 ```
-npm install --save @atsjj/b-tree-map;
+npm install --save @atsjj/btreemap;
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install --save @atsjj/b-tree-map;
 ### Deno
 
 ```ts
-import { Tree } from "https://deno.land/x/b-tree-map/mod.ts";
+import { Tree } from "https://deno.land/x/btreemap/mod.ts";
 
 const tree: Tree<string, string> = new Tree();
 
@@ -37,7 +37,7 @@ console.log(tree.get("key 2")) // "value 2"
 
 ```html
 <script type="module">
-  import { Tree } from "https://cdn.skypack.dev/@atsjj/b-tree-map";
+  import { Tree } from "https://cdn.skypack.dev/@atsjj/btreemap";
 
   const tree: Tree<string, string> = new Tree();
 
@@ -54,7 +54,7 @@ console.log(tree.get("key 2")) // "value 2"
 ### Node / ESM
 
 ```javascript
-import { Tree } from "@atsjj/b-tree-map";
+import { Tree } from "@atsjj/btreemap";
 
 const tree: Tree<string, string> = new Tree();
 
@@ -70,7 +70,7 @@ console.log(tree.get("key 2")) // "value 2"
 ### Node / CJS
 
 ```javascript
-const { Tree } = require("@atsjj/b-tree-map");
+const { Tree } = require("@atsjj/btreemap");
 
 const tree: Tree<string, string> = new Tree();
 
